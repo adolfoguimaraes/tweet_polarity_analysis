@@ -29,4 +29,28 @@ Para alcançar o objetivo geral, delineiam-se os seguintes objetivos específico
 
 ```
 
+### Dicionário dos datasets
+#### Tweets
+
+- **tweet_id:** identificador único que representa um tweet no Twitter.
+- **created_at:** data e hora em que o tweet foi criado no formato "aaaa-mm-ddThh:mm:ss".
+- **retweet_count:** número de vezes que o tweet foi retweetado por outros usuários.
+- **reply_count:** número de vezes que o tweet foi respondido por outros usuários.
+- **like_count:** número de vezes que o tweet foi curtido por outros usuários.
+- **quote_count:** número de vezes que o tweet foi citado por outros usuários em seus próprios tweets.
+- **mentions:** lista de usuários do Twitter mencionados no tweet.
+- **hashtags:** lista de hashtags usadas no tweet.
+
+#### Usuários
+
+- **user_id:** identificador único para cada usuário da rede social.
+- **tweets_ids:** lista dos identificadores únicos de cada tweet que o usuário postou.
+- **followers_count:** número de seguidores do usuário.
+- **following_count:** número de contas que o usuário está seguindo.
+- **tweet_count:** número de tweets que o usuário postou.
+- **listed_count:** número de listas nas quais o usuário está incluído.
+- **is_verified:** indica se o usuário é uma conta verificada (true) ou não (false).
+- **profile_created_at:** data em que o perfil do usuário foi criado na rede social.
+
+
 
