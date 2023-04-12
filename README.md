@@ -26,6 +26,12 @@ Para alcançar o objetivo geral, delineiam-se os seguintes objetivos específico
 ```
 |- LICENSE
 |- README.md
+|- scripts
+  |- botometer
+    |- analyser.py
+    |- config.ini
+    |- main.py
+|- utils
 
 ```
 
