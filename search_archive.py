@@ -1,10 +1,11 @@
+# Script de coleta utilizando API do Twitter
 
 from scripts.collect import Collect
 import datetime
 
 
 c = Collect("config.ini")
-time = {"end": datetime.datetime.strptime("2023-01-09 00:00:00", "%Y-%m-%d %H:%M:%S"), "delta": 4, "delta_type": "hour"}
+time = {"end": datetime.datetime.strptime("2023-01-09 00:00:00", "%Y-%m-%d %H:%M:%S"), "delta": 10, "delta_type": "hour"}
 c.search_archive("stf OR congresso OR planalto OR câmara OR brasília", max_per_request=100, time=time, id="coletaPlanalto", folder="coleta/planalto2")
 
 
