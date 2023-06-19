@@ -2,8 +2,8 @@ import os
 import random
 import shutil
 
-source_dir_path = r'E:\John\\aUNIT\TCC\collecting_tweets\coleta\\basefull\input' # Substitua pelo caminho da pasta que deseja selecionar os arquivos
-destination_dir_path = r'E:\John\\aUNIT\TCC\collecting_tweets\coleta\\random4000\input4' # Substitua pelo caminho da pasta para onde deseja copiar os arquivos
+source_dir_path = r'C:\caminho\para\pasta' # Substitua pelo caminho da pasta que deseja selecionar os arquivos
+destination_dir_path = r'C:\caminho\para\pasta' # Substitua pelo caminho da pasta para onde deseja copiar os arquivos
 num_files = 4000 # Substitua pelo número de arquivos que deseja selecionar aleatoriamente
 
 # Exclui todos os arquivos da pasta de destino
