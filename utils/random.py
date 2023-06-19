@@ -1,3 +1,5 @@
+# Seleciona aleatoriamente
+
 import os
 import random
 import shutil
