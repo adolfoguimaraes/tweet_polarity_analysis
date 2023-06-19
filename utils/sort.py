@@ -1,3 +1,5 @@
+# Função para ordenar algum arquivo, nesse caso ordenar o arquivo com a lista enorme de todos arquivos já selecionados, somente para acompanhamento
+
 import re
 
 def sort_file_names(file_path):
