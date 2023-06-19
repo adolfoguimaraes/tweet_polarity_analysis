@@ -1,3 +1,5 @@
+# Verificar se tem arquivos duplicados naquela pasta e se tiver , remova-os
+
 import os
 import shutil
 
@@ -22,11 +24,9 @@ def remove_duplicate_files(folders):
 
 # Exemplo de uso
 folder_paths = [
-    r'E:\John\\aUNIT\TCC\collecting_tweets\coleta\\random4000\input',
-    r'E:\John\\aUNIT\TCC\collecting_tweets\coleta\\random4000\input1',
-    r'E:\John\\aUNIT\TCC\collecting_tweets\coleta\\random4000\input2',
-    r'E:\John\\aUNIT\TCC\collecting_tweets\coleta\\random4000\input3',
-    r'E:\John\\aUNIT\TCC\collecting_tweets\coleta\\random4000\input4',
+    r'C:\caminho\para\pasta',
+    r'C:\caminho\para\pasta',
+    r'C:\caminho\para\pasta',
     # Adicione quantas pastas desejar
 ]
 
