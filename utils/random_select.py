@@ -1,3 +1,5 @@
+# Seleciona aleatoriamente e guarda informação de quais foram selecionados
+
 import os
 import random
 import shutil
