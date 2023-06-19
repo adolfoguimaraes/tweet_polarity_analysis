@@ -1,3 +1,5 @@
+# Verifica se existe arquivos duplicados e informa quais são
+
 import os
 
 def check_duplicate_files(folders):
@@ -17,11 +19,9 @@ def check_duplicate_files(folders):
 
 # Exemplo de uso
 folder_paths = [
-    r'E:\John\\aUNIT\TCC\collecting_tweets\coleta\\random4000\input',
-    r'E:\John\\aUNIT\TCC\collecting_tweets\coleta\\random4000\input1',
-    r'E:\John\\aUNIT\TCC\collecting_tweets\coleta\\random4000\input2',
-    r'E:\John\\aUNIT\TCC\collecting_tweets\coleta\\random4000\input3',
-    r'E:\John\\aUNIT\TCC\collecting_tweets\coleta\\random4000\input4',
+    r'C:\caminho\para\pasta',
+    r'C:\caminho\para\pasta',
+    r'C:\caminho\para\pasta',
     # Adicione quantas pastas desejar
 ]
 
